@@ -1,0 +1,13 @@
+<form method='POST'>
+{% csrf_token %} 
+Create
+<br>
+<br>
+<label>title</label>
+{{form.title}}
+<br>
+<br>
+<label>Content</label>
+{{form.content}}
+<button type="submit">Submit</button>
+</form>
